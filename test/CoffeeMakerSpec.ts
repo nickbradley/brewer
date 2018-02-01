@@ -26,4 +26,12 @@ describe("CoffeeMaker", () => {
             expect(result).to.be.undefined;
         }
     });
+
+    it("Should brew a small cup of coffee when a small cup is requested");
+    it("Should send a request and turn on refill light if hopper < 30%");
+    it("Should construct machine with unique serial number");
+    it("Should only refill when machine is not brewing");
+    it("Should only allow maintenance when machine is not brewing");
+    it("Should not brew when machine is already brewing");
+    it("Should turn on maintenance light and send request for maintenance");
 });
